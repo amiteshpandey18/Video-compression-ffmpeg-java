@@ -24,6 +24,7 @@ public class VideoCompressor {
 
             BufferedReader reader =
                     new BufferedReader(new InputStreamReader(process.getInputStream()));
+                    System.out.println("BufferReader COmpleted");
 
             String line;
             while ((line = reader.readLine()) != null) {
